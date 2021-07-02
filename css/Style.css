@@ -128,11 +128,17 @@ td {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 footer {
-  position: absolute;
-  display: inline-block;
+  display: inline;
   background-color: rgb(245, 245, 245);
   width: 100%;
   text-align: center;
+}
+
+.box1,
+.box2,
+.box3,
+form {
+  display: inline-block;
 }
 
 h5 {
